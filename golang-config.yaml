@@ -1,16 +1,6 @@
 schemaVersion: 2.0.0
 
-metadataTest:
-  # Image has expected default metadata
-  env:
-    - key: GOPATH
-      value: /go
-  # the following will pass    
-  exposedPorts: []
-  # the following will fail    
-  # exposedPorts: [80]
-  volumes: []
-  entrypoint: []
+
 
 fileExistenceTests:
   # Main binary exists
